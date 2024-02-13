@@ -7,7 +7,6 @@ const output = document.getElementById('output');
 let isError = false;
 
 function cleanInputString(str) {
-<<<<<<< HEAD
   const regex = /[+-\s]/g;
   return str.replace(regex, '');
 }
@@ -19,7 +18,5 @@ function isInvalidInput(str) {
 
 function addEntry() {
  const targetId =  "#" + entryDropdown.value;
-=======
   const regex = /\+-/;
->>>>>>> 0204278 (setup js returns from html id)
 }
